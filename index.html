@@ -9,7 +9,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    \
+    <header>
+      <div class="contener">
+        <div class="row">
+          <div class="d-felx">
+            <button id="resetBtn" onclick="resetBtn()">reset</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="contener">
+          <div class="row">
+            <div class="col-6">
+              <p>Home</p>
+              <p id="homeText">0</p>
+              <button onclick="addOneHome(1)">1</button>
+              <button onclick="addThreeHome(3)">3</button>
+            </div>
+            <div class="col-6">
+              <p>Away</p>
+              <p id="awayText">0</p>
+              <button onclick="addOne(1)">1</button>
+              <button onclick="addThree(3)">3</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script src="app.js"></script>
   </body>
 </html>
